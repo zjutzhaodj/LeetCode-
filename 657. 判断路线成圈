@@ -35,3 +35,6 @@ class Solution {
         }
     }
 }
+
+注意：
+    char 类型比较的时候要用 == ，刚开始用了str.equals()，犯了一个比较蠢的错误。
