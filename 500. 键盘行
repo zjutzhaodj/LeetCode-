@@ -1,0 +1,44 @@
+给定一个单词列表，只返回可以使用在键盘同一行的字母打印出来的单词。键盘如下图所示。
+
+
+American keyboard
+
+
+示例1:
+
+输入: ["Hello", "Alaska", "Dad", "Peace"]
+输出: ["Alaska", "Dad"]
+注意:
+
+你可以重复使用键盘上同一字符。
+你可以假设输入的字符串将只包含字母。
+
+
+class Solution {
+    public String[] findWords(String[] words) {
+        String top = "qwertyuiop";
+        String mid = "asdfghjkl";
+        String bottom = "zxcvbnm";
+        List<String> out = new ArrayList<>();
+
+        for (String str : words) {
+            int one = 0;
+            int two = 0;
+            int three = 0;
+            for (char a : str.toLowerCase().toCharArray()) {
+                String ss = String.valueOf(a);
+                if (top.contains(ss)) {
+                    one = 1;
+                } else if (mid.contains(ss)) {
+                    two = 1;
+                } else if (bottom.contains(ss)) {
+                    three = 1;
+                }
+            }
+            if (one + two + three == 1) {
+                out.add(str);
+            }
+        }
+        return out.toArray(new String[0]);
+    }
+}
