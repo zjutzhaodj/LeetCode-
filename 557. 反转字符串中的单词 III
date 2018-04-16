@@ -22,3 +22,9 @@ class Solution {
         return builder.toString();
     }
 }
+
+-----------
+Attention：
+记住几个API：
+    1、字符串颠倒需要先转为StringBuilder 然后调用reverse（）
+    2、注意反转完后的字符串，恢复之前的空格情况
