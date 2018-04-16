@@ -23,14 +23,23 @@
 
 class Solution {
     public int hammingDistance(int x, int y) {
-        int temp = x ^ y;
-        int res = 0;
-        while(temp != 0){
-            res++;
-            temp &= (temp-1);
+        int res = a ^ b;
+        int count = 0;
+        while (res !=0){
+            if((res&1) == 1){
+                count++;
+            }
+            res = res>>1;
         }
-        return res;
+        return count;
     }
 }
 
 耗时：10ms
+
+--------------------------------------------------------
+
+1、首先对两数进行异或^操作，然后将问题转变为了求一个数二进制位1的个数问题
+    方法 1)Integer.bitCount(int i)  return 二进制中1的个数
+    方法 2)循环右移与1做&操作，为1的话count++， 直到res == 0
+
