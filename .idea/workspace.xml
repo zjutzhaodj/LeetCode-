@@ -19,16 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="728. 自除数" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/728. 自除数">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="43" column="1" lean-forward="false" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SelfDividingTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SelfDividingTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,11 +89,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="344. 反转字符串" pinned="false" current-in-tab="true">
+      <file leaf-file-name="344. 反转字符串" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/344. 反转字符串">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="363">
               <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sort/BubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -156,6 +156,7 @@
         <option value="$PROJECT_DIR$/src/HamingTest.java" />
         <option value="$PROJECT_DIR$/461. 汉明距离" />
         <option value="$PROJECT_DIR$/344. 反转字符串" />
+        <option value="$PROJECT_DIR$/src/sort/BubbleSort.java" />
       </list>
     </option>
   </component>
@@ -207,6 +208,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCodeDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mGithub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -220,22 +239,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.HamingTest">
-    <configuration default="false" name="KeyboardRowTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="KeyboardRowTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LeetCodeDemo" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.BubbleSort">
     <configuration default="false" name="NumberComplementTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="NumberComplementTest" />
@@ -284,6 +288,26 @@
     <configuration default="false" name="HamingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="HamingTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LeetCodeDemo" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="sort.BubbleSort" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -501,19 +525,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.KeyboardRowTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.NumberComplementTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SelfDividingTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ReverseTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.HamingTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.NumberComplementTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SelfDividingTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ReverseTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.HamingTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BubbleSort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.HamingTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ReverseTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SelfDividingTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.NumberComplementTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.KeyboardRowTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BubbleSort" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HamingTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ReverseTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SelfDividingTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.NumberComplementTest" />
       </list>
     </recent_temporary>
   </component>
@@ -585,8 +609,14 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sort/BubbleSort.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -815,6 +845,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding />
         </state>
       </provider>
