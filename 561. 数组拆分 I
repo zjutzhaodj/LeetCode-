@@ -26,4 +26,9 @@ class Solution {
 
 
 解析：
-1、a
+1、假设给定数组nums[]
+2、我们将数组nums[]进行两两分组，（a1,b1） (a2,b2) (a3,b3)…(ai,bi) 假设bi>ai
+3、我们求的Sm = min（a1,b1） +min(a2,b2)+…min(ai,bi) = a1+a2+a3+…ai
+4、由于给定的数组是恒定的，所以数组内的和也是恒定的 Ss = a1+b1+a2+b2…ai+bi
+5、假定 bi-ai的差值为 di 即 di = bi-ai 所以所有差值的总和 Sd = （b1-a1）+(b2-a2)+…（bi-ai）
+6、Ss = 2Sm+Sd  Sm = (Ss-Sd)/2  由于Ss是恒定的，所以为了让Sm最大，Sd需要尽可能的小 即bi-ai 尽可能的小，所以可以将数组排序后，取相邻2个分为一组
