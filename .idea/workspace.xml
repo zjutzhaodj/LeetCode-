@@ -69,12 +69,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="371. 两整数之和" pinned="false" current-in-tab="true">
+      <file leaf-file-name="371. 两整数之和" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/371. 两整数之和">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="359">
               <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverserLinkList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ReverserLinkList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="482">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,16 +106,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="429">
               <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayPartitionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArrayPartitionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -158,6 +160,7 @@
         <option value="$PROJECT_DIR$/561. 数组拆分 I" />
         <option value="$PROJECT_DIR$/src/BinaryTest.java" />
         <option value="$PROJECT_DIR$/371. 两整数之和" />
+        <option value="$PROJECT_DIR$/src/ReverserLinkList.java" />
       </list>
     </option>
   </component>
@@ -221,22 +224,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.BinaryTest">
-    <configuration default="false" name="ReverseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ReverseTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LeetCodeDemo" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ReverserLinkList">
     <configuration default="false" name="HamingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="HamingTest" />
@@ -290,6 +278,21 @@
     <configuration default="false" name="BinaryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="BinaryTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LeetCodeDemo" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReverserLinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ReverserLinkList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -507,19 +510,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ReverseTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.HamingTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BubbleSort" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ArrayPartitionTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BinaryTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.HamingTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BubbleSort" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ArrayPartitionTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BinaryTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ReverserLinkList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BinaryTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ArrayPartitionTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BubbleSort" />
-        <item index="3" class="java.lang.String" itemvalue="Application.HamingTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ReverseTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ReverserLinkList" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BinaryTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ArrayPartitionTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BubbleSort" />
+        <item index="4" class="java.lang.String" itemvalue="Application.HamingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -546,7 +549,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="0" width="1936" height="1040" extended-state="1" />
+    <frame x="20" y="0" width="1936" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -609,8 +612,14 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReverserLinkList.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -880,6 +889,16 @@
         <state relative-caret-position="359">
           <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReverserLinkList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
