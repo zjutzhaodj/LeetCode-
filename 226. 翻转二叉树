@@ -1,0 +1,50 @@
+翻转一棵二叉树。
+
+     4
+   /   \
+  2     7
+ / \   / \
+1   3 6   9
+转换为：
+
+     4
+   /   \
+  7     2
+ / \   / \
+9   6 3   1
+
+
+----------------------------------
+解法一：
+
+ 1、自上而下，如果节点不为null，将节点的左右节点互换
+ 2、递归对互换后的节点的左子树 以及 右子树执行互换方法
+
+ public TreeNode invertTree(TreeNode root) {
+        if (root == null) {
+            return root;
+        }
+        TreeNode temp = root.right;
+        root.right = root.left;
+        root.left = temp;
+        invertTree(root.left);
+        invertTree(root.right);
+        return root;
+ }
+
+ 解法二：
+ 这种比较好理解。
+ 如果节点不为null，分别对节点的左右子树进行反转操作。
+ 然后将反转好的节点进行左右互换
+
+  public TreeNode invertTree(TreeNode root) {
+        if (root == null) {
+             return null;
+         }
+         TreeNode right = invertTree(root.right);
+         TreeNode left = invertTree(root.left);
+         root.left = right;
+         root.right = left;
+         return root;
+  }
+
