@@ -29,4 +29,17 @@ public class BinaryTest {
         return true;
     }
 
+
+    public int[][] flipAndInvertImage(int[][] A) {
+        int n = A[0].length;
+        for(int[] res : A){
+            for(int i =0;i<(n+1)/2;i++){
+                int temp = res[i];
+                res[i] = res[n-1-i]^1;
+                res[n-1-i] = temp^1;
+            }
+        }
+        return A;
+    }
+
 }
